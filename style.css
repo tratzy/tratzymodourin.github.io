@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #1c1c1c,#2a2a2a,#3a3a3a);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 15px;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Profile */
+.profile {
+  margin-bottom: 35px;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bio {
+  font-size: 14px;
+  color: white;
+  margin-top: 6px;
+}
+
+/* Link List */
+.link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Card */
+.link-card {
+  background: #8b8b8b;
+  border-radius: 18px;
+  padding: 15px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease-in-out;
+}
+
+.link-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.link-card:hover {
+  transform: translateY(-3px);
+}
+
+.link-card:active {
+  transform: scale(0.97);
+}
+
+/* Card Content */
+.card-left {
+  width:28;
+  height:28;
+  border-radius:20%;
+  display: flex;
+  align-items: center;
+  object-position: center;
+  gap: 15px;
+  color: #fff;;
+}
+
+.card-left img {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  object-fit: cover;
+  display: flex;
+}
+
+..card-title {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 10px;   /* 🔥 bikin elegan */
+  text-transform: uppercase;
+}
+}
+
+.arrow {
+  font-size: 50px;
+  color: #777;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* PROFILE DI PAGE APK */
+.apk-profile {
+  text-align: center;
+  margin-bottom: 25px;
+  animation: fadeUp 0.6s ease forwards;
+}
+
+.apk-profile-img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+}
+
+.apk-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+/* APK PAGE */
+.apk-page {
+  background: radial-gradient(circle at top, #162033 0%, #0b1220 60%, #05070d 100%);
+}
+
+.apk-info {
+  font-size: 14px;
+  color: #9aa0a6;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* APK CARD */
+.apk-card {
+  background: linear-gradient(145deg, #1b263b, #141e30);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  animation: fadeUp 0.6s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.apk-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.apk-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #4da3ff;
+  margin-bottom: 8px;
+}
+
+.apk-desc {
+  font-size: 14px;
+  color: #c0c6d4;
+  margin-bottom: 8px;
+}
+
+.apk-note {
+  font-size: 12px;
+  color: #8b94a8;
+  margin-bottom: 20px;
+}
+
+/* DOWNLOAD BUTTON */
+.download-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(90deg, #3a7bd5, #00d2ff);
+  box-shadow: 0 8px 25px rgba(0, 150, 255, 0.4);
+  transition: all 0.3s ease;
+}
+
+.download-btn:active {
+  transform: scale(0.96);
+}
