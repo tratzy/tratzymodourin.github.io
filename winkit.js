@@ -1,9 +1,9 @@
 const apks = [
 {
-    title: "segera hadir",
-    desc: "segera hadir",
-    note: "Note: aplikasi sedang dalam proses",
-    link: "-"
+    title: "winkit premium v1.16.1 (TERBARU)",
+    desc: "fix bug pengguna terlalu proses",
+    note: "Note: download versi lain jika apk baru error atau jika",
+    link: "https://sfl.gl/rnFLrqx6"
   },
 ];
 
