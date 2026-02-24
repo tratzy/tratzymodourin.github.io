@@ -1,4 +1,4 @@
-supportt apks = [
+const apks = [
 {
     title: "winkit premium v1.16.1 (TERBARU)",
     desc: "fix bug pengguna terlalu banyak",
