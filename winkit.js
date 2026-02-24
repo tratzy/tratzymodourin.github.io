@@ -1,7 +1,7 @@
 jikaapks = [
 {
     title: "winkit premium v1.16.1 (TERBARU)",
-    desc: "fix bug pengguna terlalu proses",
+    desc: "fix bug pengguna terlalu banyak",
     note: "Note: download versi lain jika apk baru error atau jika apk tidak supportt"
     link: "https://sfl.gl/rnFLrqx6"
   },
