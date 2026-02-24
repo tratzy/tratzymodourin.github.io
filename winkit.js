@@ -1,8 +1,8 @@
-const apks = [
+jikaapks = [
 {
     title: "winkit premium v1.16.1 (TERBARU)",
     desc: "fix bug pengguna terlalu proses",
-    note: "Note: download versi lain jika apk baru error atau jika",
+    note: "Note: download versi lain jika apk baru error atau jika apk tidak supportt"
     link: "https://sfl.gl/rnFLrqx6"
   },
 ];
