@@ -3,7 +3,7 @@ const apks = [
     title: "⚡ WINK FIX V2.21.0",
     desc: "Unlock All Fitur, unlimited uhd ai.",
     note: "Note: mungkin tidak support di beberapa device.",
-    link: "https://sfl.gl/FfuaQ"
+    link: "https://sfl.gl/etEh7"
   },
 ];
 
