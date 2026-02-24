@@ -3,7 +3,7 @@ const apks = [
     title: "⚡ donghub premium",
     desc: "mungkin ada beberapa device yang ga support ",
     note: "note: cara masuk apk download dulu apk ori dari play store terus login lewat google, kalo udah hapus lagi terus download yang mod, kalo uda download masuk lewat akun google yang udh di daftarin di apk ori, selesai.",
-    link: "-"
+    link: "https://sfl.gl/M3XwJ"
   },
 ];
 
