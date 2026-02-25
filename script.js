@@ -19,7 +19,11 @@ const links = [
     icon: "donghub.jpg",
     link: "donghub.html"
   },
-  
+    {
+    nama: "ULTRA MOTION",
+    icon: "um.jpg",
+    link: "um.html"
+  },
 ];
 
 const linkList = document.getElementById("link-list");
