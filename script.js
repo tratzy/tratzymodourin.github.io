@@ -19,10 +19,15 @@ const links = [
     icon: "donghub.jpg",
     link: "donghub.html"
   },
-    {
+  {
     nama: "ULTRA MOTION",
     icon: "um.jpg",
     link: "um.html"
+  },
+  {
+    nama: "NODE VIDEO",
+    icon: "node-video.jpg",
+    link: "node-video.html"
   },
 ];
 
