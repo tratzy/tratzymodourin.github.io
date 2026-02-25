@@ -143,7 +143,7 @@ function startCountdown(whatsappNumber) {
   button.classList.add("loading");
 
   const message = encodeURIComponent(
-    `bg gw abis beli ${window.selectedProduct} mau ngasih buktinya`
+    `bg mau beli ${window.selectedProduct} `
   );
 
   setTimeout(() => {
