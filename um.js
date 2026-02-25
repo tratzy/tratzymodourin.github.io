@@ -1,5 +1,11 @@
 const apks = [
 {
+    title: "⚡ ultra motion terbaru (clone)",
+    desc: "support preset diatas 5mb.",
+    note: "Note: clone itu apa bg? clone itu apk yang bisa diinstal tanpa hapus apk yang udh ada jadi bisa ada 2.",
+    link: "https://sfl.gl/mR3TEk"
+  },
+{
     title: "⚡ ultra motion dark mode",
     desc: "support preset diatas 5mb.",
     note: "Note: bisa semua device.",
