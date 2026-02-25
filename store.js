@@ -118,7 +118,7 @@ function showPayment(type) {
   content.innerHTML = `
     ${paymentHTML}
     <button class="continue-btn" id="continueBtn" disabled>
-      Lanjut (15)
+      Lanjut (5)
     </button>
     <div class="close-popup" onclick="closePopup()">Kembali</div>
   `;
@@ -126,7 +126,7 @@ function showPayment(type) {
   startCountdown(whatsappNumber);
 }
 function startCountdown(whatsappNumber) {
-  let timeLeft = 15;
+  let timeLeft = 5;
   const button = document.getElementById("continueBtn");
 
   const interval = setInterval(() => {
