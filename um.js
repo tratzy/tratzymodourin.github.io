@@ -1,15 +1,27 @@
 const apks = [
 {
+    title: "⚡ ultra motion terbaru",
+    desc: "support preset diatas 5mb.",
+    note: "Note: versi original non clone, bisa semua device.",
+    link: "https://sfl.gl/nYn71"
+  },
+{
     title: "⚡ ultra motion terbaru (clone)",
     desc: "support preset diatas 5mb.",
     note: "Note: clone itu apa bg? clone itu apk yang bisa diinstal tanpa hapus apk yang udh ada jadi bisa ada 2.",
     link: "https://sfl.gl/mR3TEk"
   },
 {
-    title: "⚡ ultra motion dark mode",
+    title: "⚡ ultra motion dark mode (gelap)",
     desc: "support preset diatas 5mb.",
     note: "Note: bisa semua device.",
     link: "https://sfl.gl/kvC8"
+  },
+{
+    title: "⚡ ultra motion light mode (terang)",
+    desc: "support preset diatas 5mb.",
+    note: "Note: bisa semua device.",
+    link: "https://sfl.gl/TzOkV"
   },
 ];
 
