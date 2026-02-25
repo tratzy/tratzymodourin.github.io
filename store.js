@@ -90,14 +90,9 @@ function showPayment(type) {
 
   if (type === "qris") {
   paymentHTML = `
-    <h3>QRIS</h3>
-
-    <div class="qris-placeholder">
-      SEGERA HADIR
-    </div>
-
+    <h3>QRIS</h3
     <div class="payment-note">
-      Metode pembayaran QRIS akan segera tersedia.
+      lanjut ke wa admin ya
     </div>
   `;
 }
@@ -105,11 +100,8 @@ function showPayment(type) {
   if (type === "dana") {
     paymentHTML = `
       <h3>Pembayaran DANA</h3>
-      <div class="payment-box">
-        <p><strong>Nama:</strong> putt</p>
-        <p><strong>Nomor:</strong> 083190718255</p>
         <div class="payment-note">
-        Jangan lupa screenshot bukti pembayaran ya terus kirim ke admin biar admin bisa langsung memproses data am premiumnya
+        lanjut ke wa admin ya
       </div>
     `;
   }
@@ -117,11 +109,8 @@ function showPayment(type) {
   if (type === "gopay") {
     paymentHTML = `
       <h3>Pembayaran GOPAY</h3>
-      <div class="payment-box">
-        <p><strong>Nama:</strong> janatin</p>
-        <p><strong>Nomor:</strong> 083190718255</p>
        <div class="payment-note">
-       Jangan lupa screenshot bukti pembayaran ya terus kirim ke admin biar admin bisa langsung memproses data am premiumnya
+       lanjut kirim ke wa admin ya
       </div>
     `;
   }
