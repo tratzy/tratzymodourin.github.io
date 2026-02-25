@@ -20,9 +20,9 @@ const links = [
     link: "donghub.html"
   },
     {
-    nama: "ULTRA MOTION",
-    icon: "um.jpg",
-    link: "um.html"
+    nama: "CAPCUT",
+    icon: "capcut.jpg",
+    link: "capcut.html"
   },
 ];
 
