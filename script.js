@@ -29,6 +29,11 @@ const links = [
     icon: "node-video.jpg",
     link: "node-video.html"
   },
+    {
+    nama: "REMINI",
+    icon: "remini.jpg",
+    link: "remini.html"
+  },
 ];
 
 const linkList = document.getElementById("link-list");
