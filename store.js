@@ -1,7 +1,7 @@
 const products = [
   {
     title: "🔥 Alight Motion Premium",
-    desc: "Full fitur unlocked. No watermark.",
+    desc: "1 tahun, garansi 6 bulan, support preset diatas 5mb, unlock all effect.",
     oldPrice: "Rp 10.000",
     newPrice: "Rp 4.000",
     badge: "BEST SELLER"
