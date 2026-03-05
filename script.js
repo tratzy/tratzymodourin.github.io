@@ -34,6 +34,11 @@ const links = [
     icon: "remini.jpg",
     link: "remini.html"
   },
+      {
+    nama: "HYRIZZ JB APK",
+    icon: "hyrizz.jpg",
+    link: "hyrizz.html"
+  },
 ];
 
 const linkList = document.getElementById("link-list");
